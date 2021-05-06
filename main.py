@@ -1,7 +1,6 @@
 import cv2
 import mediapipe as mp
 import time
-import mouse
 import numpy as np
 
 #------------- settings -------------#
