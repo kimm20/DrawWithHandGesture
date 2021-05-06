@@ -121,7 +121,7 @@ while True:
             
             cv2.putText(img,str(dis12t16),midpoint(coordmap[12],coordmap[16]),cv2.FONT_HERSHEY_SIMPLEX,1,(140, 255, 0),1,cv2.LINE_AA)
             cv2.putText(img,str(dis8t12),midpoint(coordmap[8],coordmap[12]),cv2.FONT_HERSHEY_SIMPLEX,1,(140, 255, 0),1,cv2.LINE_AA)
-            print(coordmap[12])
+            #print(coordmap[12])
             drawx,drawy=coordmap[12]
             drawx = int(((1280-drawx)/1280) *canvassize[0])
             drawy = int((drawy/720) *canvassize[1])
